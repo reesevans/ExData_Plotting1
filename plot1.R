@@ -23,7 +23,7 @@ convertdatetime<-function(dat) {
       strptime(paste(dat[,1],dat[,2]),fmt)
 }
 
-## functions for reading data.
+## function to make plot
 plot1<-function() {
       par(mfrow=c(1,1))
       filename <- "household_power_consumption.txt"

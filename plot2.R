@@ -1,5 +1,5 @@
 ## plot2 This program produces plot2 for Course projct 1. \
-## plot2 is a  of Global Active power over the 48 hour period 
+## plot2 is a plot of Global Active power over the 48 hour period 
 ## from 1 February 2007 through 2 February 2007. The data is from the file
 ## "household_power_consumption.txt" . This data is available from:
 ## UCI Machine Learning Repository; 
@@ -23,7 +23,7 @@ convertdatetime<-function(dat) {
       strptime(paste(dat[,1],dat[,2]),fmt)
 }
 
-## functions for reading data.
+## function to make plot
 plot2<-function() {
       par(mfrow=c(1,1))
       filename <- "household_power_consumption.txt"

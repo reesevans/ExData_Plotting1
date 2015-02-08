@@ -24,7 +24,7 @@ convertdatetime<-function(dat) {
       strptime(paste(dat[,1],dat[,2]),fmt)
 }
 
-## functions for reading data.
+## function to make plot
 plot4<-function() {
       
       par(mfrow=c(2,2))
